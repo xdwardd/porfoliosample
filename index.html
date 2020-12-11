@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    
+	<title>Portfolio | Edward Catapan</title>
+	<style>
+		.flexbox{
+			display: flex;
+			flex-direction: column;	
+			
+			
+		}
+		.flexbox h1{
+			text-align: left;
+			font-weight: 800;
+
+		}
+		.flexbox .right{
+			display:flex;
+			height:60vh;
+			align-items: center;
+			justify-content:center;
+		}
+		span{
+			font-weight: 800;
+			margin-left: 1.5rem;
+		}
+		.skills li{
+			margin-bottom: 1rem;
+		}
+		h6{
+			font-weight: 800;
+		}
+		.project-btn{
+			margin: 4vh;
+
+			border: 2px solid skyblue;
+			padding: 0.5rem 1.5rem;
+			border-radius: 2px;
+			color: #888;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-weight: bolder;
+			transition: all ease-in-out 0.5s;
+		}
+
+		.project-btn:hover{
+			background: skyblue;
+		}
+		
+	</style>
+</head>
+
+		
+<body>
+	<header>
+		<nav class="nav-wrapper transparent">
+			<div class="container">
+				<a href="" class="brand-logo grey-text text-darken-2" style="
+				font-style: italic; font-family: sans-serif; font-weight: bolder;">Edward</a>
+				<a href="" class="sidenav-trigger" data-target="mobile-nav">
+					<i class="material-icons grey-text text-darken-2">menu</i>
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li>
+						<a href="#about" class="grey-text text-darken-2">About</a>
+					</li>
+					<li>
+						<a href="#skills" class="grey-text text-darken-2">Skills</a>
+					</li>
+					<li>
+						<a href="#projects" class="grey-text text-darken-2">Projects</a>
+					</li>
+					<li>
+						<a href="#contacts" class="grey-text text-darken-2">Contacts</a>
+					</li>
+					<li>
+						<a href="#certificates" class="grey-text text-darken-2">Certificates</a>
+					</li>
+				</ul>
+				<!--Burger Menu-->
+
+				<ul class="sidenav" id="mobile-nav">
+					<li>
+						<a href="#about" class="grey-text text-darken-2">About</a>
+					</li>
+					<li>
+						<a href="#skills" class="grey-text text-darken-2">Skills</a>
+					</li>
+					<li>
+						<a href="#projects" class="grey-text text-darken-2">Projects</a>
+					</li>
+					<li>
+						<a href="#contacts" class="grey-text text-darken-2">Contacts</a>
+					</li>
+					<li>
+						<a href="#certificates" class="grey-text text-darken-2">Certificates</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section class="container section scrollspy" id="about">
+		<div class="row">
+			<div class="col s12 m6 l6">
+				<div class="">
+						<img src="img/dwarddportfolio.png" class="responsive-img materialboxed center">
+
+				</div>
+			</div>
+
+			<div class="col s12 m6 l6">
+
+			        <div class="flexbox">
+			        	<div class="flexbox right">
+			        		  <h1>Hi! Im Edward</h1>
+				        <i>"Never Stop Learning"</i>
+						<p>I love programming because it's challenging. Coding Allows me to never stop learning. I do Projects using PHP Programming Language and Laravel Frameworks. I hope you like my projects and consider me as part of your team.</p>		
+			        	</div>
+				      
+			        </div>
+				
+					
+			</div>
+		</div>
+	</section>
+	<section class="container section scrollspy" id="skills">
+		<h6 class="cyan-text text-accent-4">MY SKILLS</h6>
+		<div class="row">
+			<div class="col s12 m6 l6">
+			
+				<h4 class="grey-text text-darken-2" style="font-weight: 600;" > My Expertise</h4>
+					<ul class="skills">
+						<li>
+							<i class="fab fa-php fa-2x indigo-text"></i><span class="grey-text text-darken-2">Hypertext Preprocessor (PHP)</span>
+								<p>I choose php as my programming language</p>
+ 								<div class="progress">
+      							<div class="determinate cyan" style="width: 70%"></div>
+  								</div>
+        
+	  					</li>
+	  					<li>
+							<i class="fab fa-laravel fa-2x red-text"></i><span class="grey-text text-darken-2">Laravel Framework</span>
+								<p>The most famous php framework. Nice and understandable</p>
+
+ 								<div class="progress">
+      							<div class="determinate cyan" style="width: 70%"></div>
+  								</div>
+        
+	  					</li>
+						<li>
+							<i class="fab fa-html5 fa-2x orange-text"></i><span class="grey-text text-darken-2">Hypertext Markup Language (HTML)</span>
+								<p>Basic knowledge in frontend development</p>
+ 								<div class="progress">
+      							<div class="determinate cyan" style="width: 60%"></div>
+  								</div>
+        
+						</li>
+						<li>
+							<i class="fab fa-css3-alt fa-2x blue-text"></i><span class="grey-text text-darken-2">Cascading Style Sheet (CSS)</span>
+								<p>Basic knowledge in styling</p>
+ 								<div class="progress">
+      							<div class="determinate cyan" style="width: 60%"></div>
+  								</div>
+        
+						</li>
+					</ul>
+				 
+						
+			</div>
+			<div class="col s12 m6 l6">
+				<h4 class="grey-text text-darken-2" style="font-weight: 600;">Other Skills</h4>
+					<ul class="skills">
+						<li>
+							<i class="fab fa-php fa-2x indigo-text"></i><span class="grey-text text-darken-2">PHP Artisan Command</span>
+						</li>
+						<li>
+							<i class="fab fa-git-alt fa-2x deep-orange-text"></i ><span class="grey-text text-darken-2">Git Command</span>
+						</li>
+						
+						<li>
+							<i class="fab fa-bootstrap fa-2x deep-purple-text"></i><span class="grey-text text-darken-2">Bootstrap CSS</span>
+						</li>
+						<li>
+							<img src="img/materializecsslogo.ico" style="width: 30px;"><span class="grey-text text-darken-2">Materialize CSS</span>
+						</li>
+						<li>
+							<img src="img/tailwindcss.ico" style="width: 30px;"><span class="grey-text text-darken-2">Tailwind CSS</span>
+						</li>
+					</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="container section scrollspy" id="projects" >
+			<h6 class="cyan-text text-accent-4">MY PROJECTS</h6>
+			<h4 class="grey-text text-darken-2" style="font-weight: 600;">PHP Laravel Projects</h4>
+			<div class="row">
+				<div class="col s12 m6 l6">
+					 <div class="card">
+				    	<div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="img/MyHotel.png">
+				    	</div>
+				    	<div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-2" style="font-weight: 800">MyHotel<i class="material-icons right">more_vert</i></span>
+				        <p>  <a href="https://protected-thicket-11889.herokuapp.com" target="_blank" class="btn waves-effect waves-purple"  style="margin-left:1.5rem; letter-spacing: 2px; font-weight: bolder">VIEW</a></p>
+				    	</div>
+				    	<div class="card-reveal">
+				     	 <span class="card-title grey-text text-darken-4"  style="font-weight: bolder;">MyHotel<i class="material-icons right">close</i></span>
+				     	 <p>A website where you can book rooms online.
+				     	 	<br>
+				     	 	Admin:
+				     	 	<br>
+				     	 	Add Rooms
+				     	 	<br>
+				     	 	Update Rooms
+				     	 	<br>
+				     	 	Delete Rooms
+				     	 	<br>
+				     	 	View Booking Request
+				     	 	<br>
+							Username: admin@myhotel.com
+							<br>
+							Password: myhotel12345
+						</p>
+						<a href="https://protected-thicket-11889.herokuapp.com/login" target="_blank" class=" btn waves-effect">Login As Admin</a>
+				    	</div>
+  					</div>
+				</div>
+				<div class="col s12 m6 l6">
+					 <div class="card">
+				    	<div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="img/foodmaster.png">
+				    	</div>
+				    	<div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-2" style="font-weight: 800">FoodMaster<i class="material-icons right">more_vert</i></span>
+				        <p>  <a href="https://intense-crag-50848.herokuapp.com/home" target="_blank" class="btn waves-effect waves-purple"  style="margin-left:1.5rem; letter-spacing: 2px; font-weight: bolder">VIEW</a></p>
+				    	</div>
+				    	<div class="card-reveal">
+				     	 <span class="card-title grey-text text-darken-4"  style="font-weight: bolder;">FoodMaster<i class="material-icons right">close</i></span>
+				     	 <p>Food ordering website<br>
+				     	    Create Acount<br>
+				     	    Order Items<br>
+				     	    Manange your cart<br>
+				     	    Get Total amount<br>
+				     	    Proceed to Checkout<br>
+				     	 </p>
+				    	</div>
+  					</div>
+				</div>
+			</div>
+			<h4 class="grey-text text-darken-2" style="font-weight: 600;">Web Development Projects</h4>
+			<div class="row">
+				<div class="col s12 m6 l6">
+						
+				 <div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="img/htmlcss.png">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-2" style="font-weight: 800">Pure HTML/CSS<i class="material-icons right">more_vert</i></span>
+				       <p><a href="http://xdwardd.github.io" target="_blank" class="btn waves-effect waves-purple"  style="margin-left:1.5rem; letter-spacing: 2px; font-weight: bolder">VIEW</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4" style="font-weight: bolder;">Pure HTML/CSS<i class="material-icons right">close</i></span>
+				      <p>A simple website using HTML and CSS</p>
+				    </div>
+  				</div>
+				</div>
+				<div class="col s12 m6 l6">
+					 <div class="card">
+				    	<div class="card-image waves-effect waves-block waves-light">
+				      	<img class="activator" src="img/materializecss.png">
+				    	</div>
+				    	<div class="card-content">
+				      	<span class="card-title activator grey-text text-darken-2" style="font-weight: 800">Materialize CSS<i class="material-icons right">more_vert</i></span>
+				        <p><a href="https://wonderful-babbage-a8c24c.netlify.app/" target="_blank" class="btn waves-effect waves-purple"  style="margin-left:1.5rem; letter-spacing: 2px; font-weight: bolder">VIEW</a></p>
+				    	</div>
+				    	<div class="card-reveal">
+				     	 <span class="card-title grey-text text-darken-4"  style="font-weight: bolder;">Materialize CSS<i class="material-icons right">close</i></span>
+				     	 <p>A simple website using Materialize CSS Framework</p>
+				    	</div>
+  					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="container section scrollspy" id="contacts">
+		<h6 class="cyan-text text-accent-4">My Contacts</h6>
+		<h4 class="grey-text text-darken-2" style="font-weight: 600;">Get In Touch</h4>
+		<div class="row">
+			<div class="col s12 m6 l6">
+				<img src="img/phone.png" class="responsive-img">
+			</div>
+			<div class="col s12 m6 l6">
+				<h5 class="grey-text text-darken-2" style="font-weight: bold; margin-bottom: 2rem;">Feel free to reach me anytime:</h5>
+				<ul>
+					<li style="margin-bottom: 1rem;"><span class="valign-wrapper grey-text text-darken-2"><i class="material-icons teal-text"  style="padding-right: 1rem;">email</i>xdwardd@gmail.com</span></li>
+					<li style="margin-bottom: 1rem;"><span class="valign-wrapper grey-text text-darken-2"><i class="material-icons teal-text"  style="padding-right: 1rem;">phone</i>(+63) 9551362555</span></li>
+					<li style="margin-bottom: 1rem;"><span class="valign-wrapper grey-text text-darken-2"><i class="material-icons teal-text"  style="padding-right: 1rem;">home</i>Purok Makugihon, Brgy. Guadalupe, Bogo City, Cebu</span></li>
+					
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="container section scrollspy" id="certificates">
+		<h6 class="cyan-text text-accent-4">My Certificates</h6>
+		<h4 class="grey-text text-darken-2" style="font-weight: 600;" > Certificates</h4>
+		<div class="row">
+			<div class="col s12 m6 l6">
+	      		<div class="card small">
+		        	<div class="card-image">
+		          	<img src="img/nc2.jpg" class="responsive-img materialboxed">
+		        	</div>
+		        	<div class="card-content">
+		         	<h5>Computer Hardware Servicing (NC II)</h5>
+	          		</div>
+        		</div>
+        	</div>
+
+        	<div class="col s12 m6 l6">
+	      		<div class="card small">
+		        	<div class="card-image">
+		          	<img src="img/troubleshooting.jpg" class="responsive-img materialboxed">
+		        	</div>
+		        	<div class="card-content">
+		         	<h5>Basic Network Troubleshooting</h5>
+	        		</div>
+     		 	</div>
+			</div>
+		</div>
+	</section>
+	 <footer class="section white darken-2 center">
+        <p>Copyright &copy; Edward Catapan, 2020</p>
+      </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    	   
+     $(document).ready(function(){
+     	//burger menu
+            $('.sidenav').sidenav();
+        //materialboxed
+        	$('.materialboxed').materialbox();
+        //Scrollspy
+        	$('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
